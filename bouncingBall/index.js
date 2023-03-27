@@ -37,7 +37,7 @@ function jump() {
     if (jumpCount > 20) {
       clearInterval(jumpInterval);
       jumping = 0;
-      jumpCount = 0;
+      jumpCount = 0
     }
     jumpCount++;
   }, 10);
